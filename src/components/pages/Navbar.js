@@ -1,6 +1,6 @@
 import React from 'react'
-import "../../node_modules/bootstrap/dist/css/bootstrap.css"
-import Logo from "../Pics/logo.png"
+import "../../../node_modules/bootstrap/dist/css/bootstrap.css"
+import Logo from "../../Pics/logo.png"
 
 function Navbar() {
   return (
@@ -13,7 +13,7 @@ function Navbar() {
         <h1>GM GUM Industries</h1>
       </div>
       <div className='w-75 bg-primary'>
-        <h1>GM GUM Industries</h1>
+          
       </div>
       </div>
         
