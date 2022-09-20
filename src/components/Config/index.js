@@ -3,6 +3,8 @@ import About from "../pages/About"
 import Contact from "../pages/contact"
 import Home from "../pages/Home"
 import Products from "../pages/Products"
+import Navbar from "../pages/Navbar"
+import Slider from '../pages/Slider'
 
 
-export {About,Contact,Home,Products};
+export {About,Contact,Home,Products,Navbar,Slider};
