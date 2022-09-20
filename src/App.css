@@ -1,8 +1,35 @@
 .navlink{
-  text-decoration: none;
   color: white;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+  font-size: 21px;
+  font-family: 'Times New Roman', Times, serif;
+
 }
 .NavImgLogo{
   height: 100px;
   width: 300px;
+}
+.navlink:hover{
+text-decoration: underline;
+text-underline-position: below;
+color: brown;
+}
+.NavbarLinks{
+  width: 60%;
+}
+.LogoDiv{
+  width: 30%;
+}
+.emptydiv{
+  width: 10%;
+}
+.MainNavBar{
+  height: 110px;
+  background-color: whitesmoke;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 50px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 30px -30px;
+  border-radius: 10px;
 }

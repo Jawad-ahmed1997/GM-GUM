@@ -10,11 +10,11 @@ function Navbar() {
       <div className='d-flex justify-content-center align-item-center  w-100'>
         <h1>GM GUM Industries</h1>
       </div>
-      <div className='w-100 flex-row d-flex justify-content-center align-item-center flex-row h-100 w-100'>
-        <div className=' d-flex justify-content-center align-item-center  w-25 bg-primary'>
+      <div className='w-100 MainNavBar flex-row d-flex justify-content-center align-item-center '>
+        <div className=' d-flex justify-content-center align-item-center LogoDiv'>
           <img className='NavImgLogo' src={Logo} />
         </div>
-        <div className='d-flex justify-content-around align-item-center w-75 bg-dark '>
+        <div className='NavbarLinks d-flex justify-content-around flex-wrap align-items-center '>
 
           <Link className='navlink' to="/">Home</Link>
 
@@ -23,6 +23,8 @@ function Navbar() {
           <Link className='navlink' to="./Products">Products</Link>
 
           <Link className='navlink' to="./contact">Contact</Link>
+        </div>
+        <div className='d-flex emptydiv'>
 
         </div>
       </div>
