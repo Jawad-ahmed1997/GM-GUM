@@ -29,7 +29,9 @@ color: brown;
   width: 10%;
 }
 .MainNavBar{
-  height: 70px;
+  flex-wrap: wrap;
+  min-height: 70px;
+  width: 100%;
   background-color: whitesmoke;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 50px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 30px -30px;
@@ -50,12 +52,17 @@ color: brown;
 
 /* FOr Slider CSS */
  
+<<<<<<< HEAD
 
 .each-slide-effect > div {
+=======
+ .each-fade> div {
+>>>>>>> 9f78be8c604360b9722fdd68a285f15f1bbeb99f
   display: flex;
   align-items: center;
   justify-content: center;
   background-size: cover;
+<<<<<<< HEAD
   height: 650px;
 }
 .each-slide-effect span {
@@ -63,3 +70,31 @@ color: brown;
   font-size: 20px;
   text-align: center;
 }
+=======
+  
+}
+.nav{
+  background-color: lightgray;
+  opacity: 1;
+}
+.fade{
+  background-color: none;
+}
+.sliderimgs{
+  height: 350px;
+  width: 100%;
+  border-radius: 10px;
+}
+.slide-container{
+  margin: 10px;
+}
+.each-fade> span {
+  display: flex;
+  padding: 20px; 
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+>>>>>>> 9f78be8c604360b9722fdd68a285f15f1bbeb99f

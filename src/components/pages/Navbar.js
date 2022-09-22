@@ -11,11 +11,11 @@ import Slider from './Slider'
 
 function Navbar() {
   return (
-    <div className=' row d-flex justify-content-center align-item-center flex-column h-100 w-100'>
+    <div className='d-flex justify-content-center align-item-center flex-column h-100 w-100'>
        <div style={{ backgroundImage: `url(${MainDisplay})` }} className='Display d-flex justify-content-center align-item-center  w-100'>
       <h1 className='TopDivHeading'>GM GUM Industries</h1>
     </div>
-      <div className='w-100 MainNavBar flex-row d-flex justify-content-center align-item-center '>
+      <div className='MainNavBar d-flex justify-content-center align-item-center '>
         <div className=' d-flex justify-content-center align-item-center LogoDiv'>
           <img className='NavImgLogo' src={Logo} />
         </div>
