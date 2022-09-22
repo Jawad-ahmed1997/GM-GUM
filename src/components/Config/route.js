@@ -1,6 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import {Home,About,Contact,Products,Navbar} from "./index"
+import {Home,About,Contact,Products,Navbar,Slider}from "./index"
 
 
 
@@ -14,6 +14,7 @@ function AppRoute() {
                     <Route path="/About" element={<About/>} />
                     <Route path="/contact" element={<Contact/>} />
                     <Route path="/Products" element={<Products/>} />
+                    <Route path="/slider" element={<Slider/>} />
                 </Routes>
             </Router>
         </div>

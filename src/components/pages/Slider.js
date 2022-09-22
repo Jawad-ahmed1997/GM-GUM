@@ -1,30 +1,34 @@
 import React from 'react'
-import slide1 from "../../Pics/SeedSliderPic.jpg"
-import slide2 from "../../Pics/sliderimage.jpg"
-import { Slide } from 'react-slideshow-image';
+import Pic1 from "../../Pics/SeedSliderPic.jpg"
+import slide3 from "../../Pics/sliderimage.jpg"
+import { Fade } from "react-slideshow-image";
+import '../../App.css'
 
-function Slider() {
+import 'react-slideshow-image/dist/styles.css'
 
-  return (
-    <Slide>
-    <div className="each-slide-effect">
-        <div>
-            <img src='slide1' />
-            <span>Slide 1</span>
-        </div>
-    </div>
-    <div className="each-slide-effect">
-        <div style={{ 'backgroundImage': `url(${slide2})` }}>
-            <span>Slide 2</span>
-        </div>
-    </div>
-    <div className="each-slide-effect">
-        <div style={{ 'backgroundImage': `url(${slide2})` }}>
-            <span>Slide 3</span>
-        </div>
-    </div>
-</Slide>
-  )
-}
+const fadeImages = [
+Pic1,slide3,Pic1,slide3,Pic1,slide3,Pic1,slide3,Pic1,slide3,  
+];
+  
+  function Slider() {
+    return (
+      <div className="slide-container">
+        <Fade className="fade">
+          <div className="each-fade">
+            <img className='sliderimgs' src={fadeImages[0]} />
+            <span>Pics</span>
+          </div>
+          <div className="each-fade">
+            <img className='sliderimgs' src={fadeImages[1]} />
+            <span>Pics</span>
+          </div>
+          <div className="each-fade">
+            <img className='sliderimgs' src={fadeImages[2]} />
+            <span>Pics</span>
+          </div>
+        </Fade>
+      </div>
+    );
+  }
 
-export default Slider
+export default Slider;
