@@ -82,4 +82,16 @@ color: brown;
   align-items: center;
   justify-content: center;
 }
-
+@media (max-width: 998px){
+ .navlink{
+  display: none;
+ }
+.NavImgLogo{
+ width: 170px;
+}
+}
+@media (max-width: 798px){
+.NavImgLogo{
+ width: 140px;
+}
+}
