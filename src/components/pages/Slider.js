@@ -1,3 +1,5 @@
+
+
 import React from 'react'
 import Pic1 from "../../Pics/SeedSliderPic.jpg"
 import slide3 from "../../Pics/sliderimage.jpg"

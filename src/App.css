@@ -52,35 +52,18 @@ color: brown;
 
 /* FOr Slider CSS */
  
- .each-fade> div {
+
+.each-slide-effect > div {
   display: flex;
   align-items: center;
   justify-content: center;
   background-size: cover;
-  
+  height: 650px;
 }
-.nav{
-  background-color: lightgray;
-  opacity: 1;
-}
-.fade{
-  background-color: none;
-}
-.sliderimgs{
-  height: 350px;
-  width: 100%;
-  border-radius: 10px;
-}
-.slide-container{
-  margin: 10px;
-}
-.each-fade> span {
-  display: flex;
-  padding: 20px; 
+.each-slide-effect span {
+  padding: 20px;
   font-size: 20px;
   text-align: center;
-  align-items: center;
-  justify-content: center;
 }
 @media (max-width: 998px){
  .navlink{

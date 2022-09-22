@@ -1,11 +1,13 @@
 import React from 'react'
 import Navbar from "./Navbar"
-import Slideshow from './Slider'
+import Slider from './Slider'
 
 
 function Home() {
   return (
-   <Slideshow></Slideshow>
+    <Slider>
+
+    </Slider>
   )
 }
 
