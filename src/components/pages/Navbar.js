@@ -6,6 +6,8 @@ import Logo from "../../Pics/logo.png"
 import { Link } from 'react-router-dom'
 import '../../App.css'
 import MainDisplay from "../../Pics/GuarGumHeader.jpg"
+import { Slide } from 'react-slideshow-image'
+import Slider from './Slider'
 
 function Navbar() {
   return (
@@ -30,6 +32,7 @@ function Navbar() {
         <div className='d-flex emptydiv'>
 
         </div>
+        <Slider></Slider>
       </div>
 
     </div>

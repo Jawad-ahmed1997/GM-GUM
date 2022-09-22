@@ -5,7 +5,7 @@ import Slider from './Slider'
 
 function Home() {
   return (
-   <Slider></Slider>
+    <Slider></Slider>
   )
 }
 

@@ -50,14 +50,16 @@ color: brown;
 
 /* FOr Slider CSS */
  
+
 .each-slide-effect > div {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-size: cover; */
-  height: 100px;
+  background-size: cover;
+  height: 650px;
 }
-.sliderImg{
-  height: 350px;
-  width: 100%;
+.each-slide-effect span {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
 }

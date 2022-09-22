@@ -1,8 +1,9 @@
 import React from 'react'
+import Slider from './Slider'
 
 function Products() {
   return (
-    <div>Products</div>
+   <h1>Product page</h1>
   )
 }
 
