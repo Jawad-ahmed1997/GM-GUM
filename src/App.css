@@ -65,6 +65,7 @@ color: brown;
   font-size: 20px;
   text-align: center;
 }
+<<<<<<< HEAD
 .each-fade{
   margin: 10px;
 }
@@ -92,4 +93,18 @@ color: brown;
   justify-content: center;
   align-items: center;
   background-size: cover;
+=======
+@media (max-width: 998px){
+ .navlink{
+  display: none;
+ }
+.NavImgLogo{
+ width: 170px;
+}
+}
+@media (max-width: 798px){
+.NavImgLogo{
+ width: 140px;
+}
+>>>>>>> 3dbc644db5bbb3b725958147349ecfd4b1eec854
 }
