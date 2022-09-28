@@ -65,6 +65,14 @@ color: brown;
   font-size: 20px;
   text-align: center;
 }
+.sliderimgs{
+  height: 350px;
+  width: 99%;
+  border-radius: 10px;
+  background-size: cover;
+  margin: 5px;
+}
+
 @media (max-width: 998px){
  .navlink{
   display: none;
