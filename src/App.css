@@ -43,7 +43,7 @@ color: brown;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 3px;
 }
 
 
@@ -65,6 +65,7 @@ color: brown;
   font-size: 20px;
   text-align: center;
 }
+<<<<<<< HEAD
 .sliderimgs{
   height: 350px;
   width: 99%;
@@ -73,6 +74,37 @@ color: brown;
   margin: 5px;
 }
 
+=======
+<<<<<<< HEAD
+.each-fade{
+  margin: 10px;
+}
+.sliderimgs{
+  height: 350px;
+  width: 75%;
+  background-size: cover;
+  border-radius: 10px;
+  margin: 5px;
+}
+/* .slide-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+} */
+
+
+
+/* Contact Page CSs */
+
+.ContactDivMain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+=======
+>>>>>>> 960358e86730511a465180c5773325ad5775aaa9
 @media (max-width: 998px){
  .navlink{
   display: none;
@@ -85,4 +117,5 @@ color: brown;
 .NavImgLogo{
  width: 140px;
 }
+>>>>>>> 3dbc644db5bbb3b725958147349ecfd4b1eec854
 }

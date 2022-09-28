@@ -6,10 +6,19 @@ function Contact() {
   <div className='ContactDivMain' style={{ backgroundImage: `url(${BackgroundPic})` }}> 
     <div className='ContactForm'>
         <form className='form'>
-          <input placeholder='Enter YOur Name' type="text"/>
-          <input placeholder='Enter YOur Name' type="text"/>
+          <input placeholder='Enter Your Name' type="text"/>
+          <input placeholder='Enter Email Address' type="text"/>
           <textarea>
-
+            
+          </textarea>
+          <textarea>
+            
+          </textarea>
+          <textarea>
+            
+          </textarea>
+          <textarea>
+            
           </textarea>
         </form> 
     </div>
