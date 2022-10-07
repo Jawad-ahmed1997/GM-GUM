@@ -5,15 +5,13 @@ import Logo from "../../Pics/logo.png"
 
 import { Link } from 'react-router-dom'
 import '../../App.css'
-import MainDisplay from "../../Pics/GuarGumHeader.jpg"
+import MainDisplay from "../../Pics/MainDisplay8.jpeg"
 
 
 function Navbar() {
   return (
-    <div className=' row d-flex justify-content-center align-item-center flex-column h-100 w-100'>
-      <div style={{ backgroundImage: `url(${MainDisplay})` }} className='Display d-flex justify-content-center align-item-center  w-100'>
-        <h1 className='TopDivHeading'>GM GUM Industries</h1>
-      </div>
+    <div style={{ backgroundImage: `url(${MainDisplay})` }}
+      className='NavMainDiv row d-flex justify-content-center align-item-center flex-column'>
       <div className='w-100 MainNavBar flex-row d-flex justify-content-center align-item-center '>
         <div className=' d-flex justify-content-center align-item-center LogoDiv'>
           <img className='NavImgLogo' src={Logo} />
@@ -31,6 +29,10 @@ function Navbar() {
         <div className='d-flex emptydiv'>
 
         </div>
+      </div>
+
+      <div className='Display d-flex justify-content-center align-item-center  w-100'>
+        <h1 className='TopDivHeading'>GM GUM Industries</h1>
       </div>
 
     </div>
