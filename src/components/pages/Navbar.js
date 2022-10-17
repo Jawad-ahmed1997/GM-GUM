@@ -23,7 +23,7 @@ function Navbar() {
             <Link className='navlink' to="./Products">Products</Link>
 
             <Link className='navlink' to="./contact">Contact</Link>
-            <Link className='navlink' to="./contact">Certifications</Link>
+            <Link className='navlink' to="./certification">Certifications</Link>
           </div>
           <div className=' d-flex justify-content-center align-item-center LogoDiv'>
             <img className='NavImgLogo' src={Logo} />
