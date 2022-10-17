@@ -7,6 +7,7 @@ import Slider from './Slider'
 function Home() {
   return (
     <>
+    <Navbar></Navbar>
     <Slider></Slider>
     <Contact></Contact>
     </>

@@ -8,13 +8,12 @@ function AppRoute() {
     return (
         <div>
             <Router>
-                <Navbar></Navbar>
                 <Routes>
-                    <Route path="/" element={<Home/>} />
-                    <Route path="/About" element={<About/>} />
-                    <Route path="/contact" element={<Contact/>} />
-                    <Route path="/Products" element={<Products/>} />
-                    <Route path="/slider" element={<Slider/>} />
+                    <Route path="/contact" element={<Contact />} />
+                    <Route path="/" element={<Home />} />
+                    <Route path="/About" element={<About />} />
+                    <Route path="/Products" element={<Products />} />
+                    <Route path="/slider" element={<Slider />} /> 
                 </Routes>
             </Router>
         </div>
