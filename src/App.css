@@ -31,6 +31,19 @@ body{
 text-decoration: underline;
 text-underline-position: below;
 color: black;
+animation-fill-mode: forwards;
+animation-name: LinkHover;
+animation-duration: 0.5s;
+/* font-size: 0px; */
+animation-timing-function: 1;
+}
+@keyframes LinkHover{
+  from{
+    font-size: 19px;
+  }
+  to{
+    font-size: 24px;
+  }
 }
 .Navbarcontant{
 width: 100%;
@@ -89,46 +102,64 @@ animation-fill-mode: forwards;
 
 
 /* FOr Slider CSS */
- 
+ .slide-container{
+  height: 70vh;
+  width: 100vw;
+  
+ }
+ .each-fade{
+  margin: 10px;
+  height: 45vh;
+  width: 70vw;
+  background-size: 100% 100%; 
+  background-repeat: no-repeat;
+  box-shadow: 0px 10px 20px -6px #000;
+}  
+.FadeContainer{
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.each-slide-effect > div {
+/* .each-slide-effect > div {
   display: flex;
   align-items: center;
   justify-content: center;
   background-size: cover;
   height: 650px;
-}
-.each-slide-effect span {
+} */
+/* .each-slide-effect span {
   padding: 20px;
   font-size: 20px;
   text-align: center;
-}
-.sliderimgs{
+} */
+
+/* .sliderimgs{
   height: 350px;
   width: 99%;
   border-radius: 10px;
   background-size: cover;
-  margin: 5px;
-}
+  margin: 5px; 
+} */
 
 
-.each-fade{
-  margin: 10px;
-}
-.sliderimgs{
+
+/* .sliderimgs{
   height: 350px;
   width: 75%;
   background-size: cover;
   border-radius: 10px;
   margin: 5px;
-}
-/* .slide-container{
+} 
+.slide-container{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 400px;
   width: 100%;
-} */
+}  */
 
 
 

@@ -9,7 +9,7 @@ function Home() {
   return (
     <>
     <Navbar></Navbar>
-    {/* <Slider></Slider> */}
+    <Slider></Slider>
     <Contact></Contact>
     <About></About>
     </>
