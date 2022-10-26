@@ -25,15 +25,13 @@ const fadeImages = [
 
 function SlideshowNew() {
   return (
-    <div className="slide-container">
-      <Fade>
+    <div className="slide-container h-100 w-100 bg-dark">
+      <Fade className='h-100 w-100 bg-dark'>
         {fadeImages.map((fadeImage, index) => (
-        <div className='FadeContainer '>
-          <div className="each-fade" key={index} style={{backgroundImage: 'url(${fadeImage.url})'}}>
-          </div>
+          <div className="each-fade h-100 w-10 bg-dark" key={index} style={{ backgroundImage: `url(${fadeImage.url})` }}>
+            <h1>Slider</h1>
           </div>
         ))}
-
       </Fade>
     </div>
   )

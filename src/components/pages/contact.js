@@ -59,7 +59,7 @@ function Contact() {
                 </div>
               </div>
             </div>
-            <div className='w-50 d-flex justify-content-center align-item-center flex-column'>
+            <div className='ContactDetailDiv2 d-flex justify-content-center align-item-center flex-column'>
               <div className='h-75 d-flex justify-content-start  align-item-center flex-row'>
               <div className='d-flex justify-content-start  align-item-center flex-column w-50 '>
                 <div className='d-flex justify-content-start pt-3 align-item-center flex-row'>

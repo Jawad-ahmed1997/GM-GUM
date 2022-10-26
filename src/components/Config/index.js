@@ -4,8 +4,9 @@ import Contact from "../pages/contact"
 import Home from "../pages/Home"
 import Products from "../pages/Products"
 import Navbar from "../pages/Navbar"
-import Slider from '../pages/Slider'
+import SlideshowNew from '../pages/Slider'
 import Certification from '../pages/Certification'
+// import SlideshowNew from '../pages/Slider3'
 
 
-export {About,Contact,Home,Products,Navbar,Slider,Certification};
+export {About,Contact,Home,Products,Navbar,Certification,SlideshowNew};
