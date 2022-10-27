@@ -3,7 +3,7 @@ import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import Pic1 from "../../Pics/SeedSliderPic.jpg"
 import slide3 from "../../Pics/sliderimage.jpg"
-import GuarCrop from "../../Pics/GuarCrop.jpg"
+
 import "../../../node_modules/bootstrap/dist/css/bootstrap.css"
 import GuarBeans from "../../Pics/GuarBeans.jpg"
 import '../../App.css'
@@ -16,7 +16,7 @@ const fadeImages = [
   url: slide3,
   },
   {
-  url: GuarCrop,
+  url: slide3,
   },
   {
   url: GuarBeans,
@@ -26,10 +26,10 @@ const fadeImages = [
 function SlideshowNew() {
   return (
     <div className="slide-container">
-      <Fade>
+      <Fade >
         {fadeImages.map((fadeImage, index) => (
         <div className='FadeContainer '>
-          <div className="each-fade" key={index} style={{backgroundImage: 'url(${fadeImage.url})'}}>
+          <div className="each-fade" key={index} style={{backgroundImage:`url(${fadeImage.url})`}}>
           </div>
           </div>
         ))}

@@ -18,6 +18,7 @@ body{
   background-size: cover;
   height: 100vh;
   width: 100vw;
+  
 }
 .NavImgLogo{
   height: 100px;
@@ -49,6 +50,9 @@ animation-timing-function: 1;
 width: 100%;
 margin-top: 10px;
 height: 70px;
+position: -webkit-sticky;
+position: sticky;
+  top: 2px;
 box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 .NavbarLinks{
@@ -95,14 +99,15 @@ animation-fill-mode: forwards;
   to{
   font-size: 48px;
   border: 5px solid white;
-}
+}}
 
 
 
 
 
 /* FOr Slider CSS */
- .slide-container{
+
+ .slide_container{
   height: 70vh;
   width: 100vw;
   
@@ -185,7 +190,7 @@ animation-fill-mode: forwards;
   width: 100%;
 }
 .DetailDiv{
-  height: 50vh;
+  min-height: 50vh;
   width: 100%;
   background-color: rgba(245, 245, 245, 0.932);
   box-shadow: 1px 5px rgba(211, 211, 211);
@@ -286,4 +291,45 @@ width: 30px;
 .ContactForm{
   width: 100%;
 }
+}
+
+
+
+/* 
+*********Product Page********** */
+
+
+.ProductCard{
+  height: 40vh;
+  width: 30vh;
+  box-shadow: 0px 10px 20px -6px #000;
+  background-size: 100% 100%;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;  animation-duration: 1s;
+  animation-fill-mode: forwards;
+   animation-name: ProductcardHover;
+   position: relative;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+  @keyframes ProductcardHover{
+    from{
+      height: 0vh;
+      width:  0vw;
+    }
+    to{
+      height: 40vh;
+  width: 30vh;
+    }
+}
+.ProductCardMain{
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }

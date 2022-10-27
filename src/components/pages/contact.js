@@ -6,9 +6,13 @@ import { RiFacebookBoxFill} from 'react-icons/ri';
 import { AiOutlineTwitter} from 'react-icons/ai';
 import { GrLocation} from 'react-icons/gr';
 import { BiPhoneCall} from 'react-icons/bi';
+import Navbar1 from './NavBar1';
 
 function Contact() {
   return (
+    <>
+    
+    <Navbar1></Navbar1>
     <div className='ContactDivMain  '>
       <div className='ContactdivBack ' style={{ backgroundImage: `url(${BackgroundPic})` }}>
         <img className='NavImgLogo' src={Logo} />
@@ -96,6 +100,8 @@ function Contact() {
 
 
     </div>
+    
+    </>
   )
 }
 
