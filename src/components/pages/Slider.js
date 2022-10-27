@@ -5,12 +5,14 @@ import Pic1 from "../../Pics/SeedSliderPic.jpg"
 import slide3 from "../../Pics/sliderimage.jpg"
 import GuarCrop from "../../Pics/GuarCrop.jpg"
 import "../../../node_modules/bootstrap/dist/css/bootstrap.css"
-import GuarBeans from "../../Pics/GuarBeans.jpg"
+import GuarBeans from "../../Pics/GuarBeansEdit.jpg"
+import GuarProcesss from "../../Pics/GuarProcesss.jpeg"
 import '../../App.css'
 
 const fadeImages = [
   {
-  url: Pic1,
+  url: GuarProcesss,
+  Caption:"Guar Porcess"
   },
   {
   url: slide3,
@@ -29,7 +31,8 @@ function SlideshowNew() {
       <Fade>
         {fadeImages.map((fadeImage, index) => (
         <div className='FadeContainer '>
-          <div className="each-fade" key={index} style={{backgroundImage: 'url(${fadeImage.url})'}}>
+          <div className="each-fade" key={index} style={{backgroundImage: `url(${fadeImage.url})`}}>
+            <h3>{fadeImage.Caption}</h3>
           </div>
           </div>
         ))}
