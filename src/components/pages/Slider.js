@@ -1,16 +1,17 @@
 import React from 'react';
 import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
-import Pic1 from "../../Pics/SeedSliderPic.jpg"
 import slide3 from "../../Pics/sliderimage.jpg"
 
 import "../../../node_modules/bootstrap/dist/css/bootstrap.css"
-import GuarBeans from "../../Pics/GuarBeans.jpg"
+import GuarBeans from "../../Pics/GuarBeansEdit.jpg"
+import GuarProcesss from "../../Pics/GuarProcesss.jpeg"
 import '../../App.css'
 
 const fadeImages = [
   {
-  url: Pic1,
+  url: GuarProcesss,
+  Caption:"Guar Porcess"
   },
   {
   url: slide3,
