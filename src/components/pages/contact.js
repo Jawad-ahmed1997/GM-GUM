@@ -80,7 +80,7 @@ function Contact() {
                 <h6 className='mt-1'>Address</h6>
                 </div>
                 <div>
-                  <p>E-52 Pakistan Cable Corangi<br/>Site Industrial Area Karchi <br/>Pakistan</p>
+                  <p>E-52 Pakistan Cable Chorangi<br/>Site Industrial Area Karchi <br/>Pakistan</p>
                 </div>
               </div>
               </div>
