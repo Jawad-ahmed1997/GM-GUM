@@ -3,7 +3,7 @@ import { Fade } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import Pic1 from "../../Pics/SeedSliderPic.jpg"
 import slide3 from "../../Pics/sliderimage.jpg"
-import GuarCrop from "../../Pics/GuarCrop.jpg"
+import GuarCrop from "../../Pics/GuarCrop.jpeg"
 import "../../../node_modules/bootstrap/dist/css/bootstrap.css"
 import GuarBeans from "../../Pics/GuarBeansEdit.jpg"
 import GuarProcesss from "../../Pics/GuarProcesss.jpeg"
