@@ -1,0 +1,252 @@
+.ContactDivMain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    padding: 0%;
+    margin: 0%;
+  }
+  .ContactLinks{
+    width: 65vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .ContactdivBack{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;  
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    justify-content: space-around;
+    height: 60vh;
+    width: 100%;
+  }
+  .DetailDiv{
+    min-height: 40vh;
+    width: 100%;
+    background-color: rgba(245, 245, 245, 0.932);
+    box-shadow: 1px 5px rgba(211, 211, 211);
+    border-radius: 10px;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+  }
+ 
+  .contactushead{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+  
+  }
+  .ContactForm{
+    width: 35vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+  .contantdiv{
+    width: 65vw;
+    height: 40vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  
+  .specMar{
+    margin-left: 10px;
+  }
+ 
+  .sociallinks a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    padding: 0px 10px 0px 10px;
+  }
+  .icon{
+    background-color: brown;
+    border: 1px black;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: white;
+    justify-content: center;align-items: center;display: flex;
+  }
+  .contactCerImag{
+    height: 150px;
+    width: 150px;
+  }
+  .CallDeatilDiiv{
+    justify-content: start;
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+}
+  .CallDeatilDiivFirstChild{
+    justify-content: space-around;
+    align-items: start;
+    display: flex;
+    flex-direction: row;
+
+}
+.CallDeatilDiivSecondChild{
+    justify-content: start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.ContactDetailDiv2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+}
+.Contact_DetailDiv2_FisrtChild{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.specailMar{
+    margin-left:10px ;
+}
+.topMargin{
+    margin-top: 20px;
+}
+
+@media  (max-width:998px) {
+    .ContactForm{
+        width: 100vw;
+    }
+    .contantdiv{
+        width: 100vw;
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+    }
+    .DetailDiv{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: col;
+
+      }
+      .GetInTouchHead{
+        font-size: 21px;
+      }
+      .ContactLinks{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+      }
+      .contactCerImag{
+        height: 120px;
+        width: 120px;
+      }
+}
+@media (max-width: 798px){
+
+    .DetailDiv{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       
+
+      }
+    .ContactForm{
+        width: 100vw;
+    }
+    .contantdiv{
+        width: 100vw;
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+    }
+   
+      .GetInTouchHead{
+        font-size: 21px;
+      }
+      .ContactLinks{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+      }
+      .contactCerImag{
+        height: 120px;
+        width: 120px;
+      }
+    }
+    @media (max-width: 420px){
+
+        .DetailDiv{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+           
+    
+          }
+        .ContactForm{
+            width: 100vw;
+        }
+        .contantdiv{
+            width: 100vw;
+            height: 100%;
+            display: flex;
+            justify-content: start;
+            align-items: flex-start;
+        }
+       
+          .GetInTouchHead{
+            font-size: 21px;
+          }
+          .ContactLinks{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+          }
+          .contactCerImag{
+            height: 120px;
+            width: 120px;
+          }
+          .CallDeatilDiiv{
+            justify-content: center;
+            align-items: flex-start;
+            display: flex;
+            flex-direction: row;
+            width: 100vw;
+        }
+        .ContactDetailDiv2{
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .Contact_DetailDiv2_FisrtChild{
+        
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; 
+            margin-left: 60px;
+        }
+        }
+  

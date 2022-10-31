@@ -1,12 +1,14 @@
 import React from 'react';
 import { Fade } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
-import Pic1 from "../../Pics/SeedSliderPic.jpg"
-import slide3 from "../../Pics/sliderimage.jpg"
-import GuarCrop from "../../Pics/GuarCrop.jpeg"
-import "../../../node_modules/bootstrap/dist/css/bootstrap.css"
-import GuarBeans from "../../Pics/GuarBeansEdit.jpg"
-import GuarProcesss from "../../Pics/GuarProcesss.jpeg"
+import 'react-slideshow-image/dist/styles.css';
+import slide3 from "../../Pics/sliderimage.jpg";
+import GuarCrop from "../../Pics/GuarCrop.jpeg";
+import "../../../node_modules/bootstrap/dist/css/bootstrap.css";
+import GuarBeans from "../../Pics/GuarBeansEdit.jpg";
+import GuarProcesss from "../../Pics/GuarProcesss.jpeg";
+import GuarGum from "../../Pics/GuarGum.png";
+import GuarSplit2 from "../../Pics/GuarSplit2.png";
+import GuarMeal from "../../Pics/GuarMeal.jpg";
 import '../../App.css'
 
 const fadeImages = [
@@ -15,30 +17,37 @@ const fadeImages = [
   Caption:"Guar Porcess"
   },
   {
-  url: slide3,
-  },
-  {
   url: GuarCrop,
+  Caption:"GUAR CROP"
   },
   {
-  url: GuarBeans,
-  },
+    url: GuarGum,
+    Caption:"GUARGum"
+    },{
+    url: GuarSplit2,
+    Caption:"Guar Gum"
+    }
+    ,{
+    url: GuarMeal,
+    Caption:"Guar Meal"
+    }
 ];
 
 function SlideshowNew() {
   return (
+    <>
     <div className="slide-container">
-      <Fade>
+      <Fade >
         {fadeImages.map((fadeImage, index) => (
         <div className='FadeContainer '>
-          <div className="each-fade" key={index} style={{backgroundImage: `url(${fadeImage.url})`}}>
-            <h3>{fadeImage.Caption}</h3>
+          <div className="each-fade" key={index} style={{backgroundImage:`url(${fadeImage.url})`}}>
           </div>
-          </div>
-        ))}
+          </div>)
+        )};
 
       </Fade>
     </div>
+    </>
   )
 }
 export default SlideshowNew;

@@ -6,7 +6,9 @@ import Products from "../pages/Products"
 import Navbar from "../pages/Navbar"
 import SlideshowNew from '../pages/Slider'
 import Certification from '../pages/Certification'
+import BottomBar from '../pages/BottomBar'
+import GuarGum from '../pages/GuarGum'
 // import SlideshowNew from '../pages/Slider3'
 
 
-export {About,Contact,Home,Products,Navbar,Certification,SlideshowNew};
+export {About,Contact,Home,Products,Navbar,Certification,SlideshowNew,BottomBar,GuarGum};

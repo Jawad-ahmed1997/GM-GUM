@@ -5,7 +5,7 @@ import logo from "../../Pics/logo3.png"
 function About() {
   return (
     <>
-    <div className='AboutMain w-100 h-100 d-flex justify-content-center align-item-center flex-row'>
+    <div className='AboutMain'>
     <div  className='Headdiv d-flex justify-content-start align-item-center flex-column'>
       <h1 className='aboutHead' >
         ABOUT US
